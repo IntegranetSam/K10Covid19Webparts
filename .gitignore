@@ -1,0 +1,14 @@
+# Ignore all
+*
+# Add .gitignore
+!/.gitignore
+
+# Add web part files
+!/CMS/
+ /CMS/*
+!/CMS/CMSWebParts/
+ /CMS/CMSWebParts/*
+!/CMS/CMSWebParts/COVID-19/
+ /CMS/CMSWebParts/COVID-19/*
+!/CMS/CMSWebParts/COVID-19/CoronavirusCountryStatistics.ascx*
+
