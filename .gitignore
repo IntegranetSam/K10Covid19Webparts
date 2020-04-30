@@ -15,10 +15,10 @@
 # Add Global folder and files
 !/CMS/App_Code/
  /CMS/App_Code/*
-!/CMS/App_Data/Global/
- /CMS/App_Data/Global/*
-!/CMS/App_Data/Global/COVID-19/
- /CMS/App_Data/Global/COVID-19/*
-!/CMS/App_Data/Global/COVID-19/CountryInfo.cs*
-!/CMS/App_Data/Global/COVID-19/JSONResponse.cs*
+!/CMS/App_Code/Global/
+ /CMS/App_Code/Global/*
+!/CMS/App_Code/Global/COVID-19/
+ /CMS/App_Code/Global/COVID-19/*
+!/CMS/App_Code/Global/COVID-19/CountryInfo.cs*
+!/CMS/App_Code/Global/COVID-19/JSONResponse.cs*
 
