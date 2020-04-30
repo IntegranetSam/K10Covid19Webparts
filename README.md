@@ -6,8 +6,9 @@ A web part for Kentico 10 that adds COVID-19 Coronavirus Statistics to your web 
 3. Select "Import sites or objects"
 4. Upload the package and import it (don't forget to check the "Import code files" checkbox)
 5. Now you are ready to use it in the Pages application
+6. Install Newtonsoft.Json.12.0.3 NuGet Package
 # Compatibility
-Tested with Kentico 8.1, 8.2, 9.0, 10.0
+Tested with Kentico 10.0
 # Prerequisites
 1. Browse https://rapidapi.com/ website
 2. Sign Up with GitHub/Facebook/Gmail/Your work email
