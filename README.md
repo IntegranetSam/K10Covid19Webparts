@@ -29,7 +29,17 @@ Tested with Kentico 10.0
 3. Select Transformation name "CountryOrGlobalTotals" from COVID19.Transformations container
 4. If you want to new UI then create new transformation under COVID19.Transformations container
 
+# Author
+This widget was created by Vasu Yerramsetti @ Ray Business Technologies Pvt Ltd.
+
 # Compatibility
 Tested with Kentico 10.0 and 12.0.29
 
 # [License](LICENSE)
+This web part is provided under MIT license.
+
+# Reporting issues
+Please report any issues seen, in the issue list. We will address at the earliest possibility.
+Contact me at my email address -vasu.yerramsetti@raybiztech.com
+
+
