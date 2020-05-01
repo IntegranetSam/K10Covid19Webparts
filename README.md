@@ -1,4 +1,5 @@
 # Kentico  Covid-19 Webparts
+## COVID-19 Statistics
 A web part for Kentico 10 that adds COVID-19 Coronavirus Statistics to your web site.
 ![Test Image 4](https://github.com/vasu-rbt/K10Covid19Webparts/blob/master/SampleView.png)
 # Installation
