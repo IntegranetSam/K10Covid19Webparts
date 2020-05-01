@@ -28,4 +28,8 @@ Tested with Kentico 10.0
 2. Add Country name (if country name is not mactched then it returns Global statistics)
 3. Select Transformation name "CountryOrGlobalTotals" from COVID19.Transformations container
 4. If you want to new UI then create new transformation under COVID19.Transformations container
+
+# Compatibility
+Tested with Kentico 10.0 and 12.0.29
+
 # [License](LICENSE)
