@@ -1,7 +1,10 @@
 # Kentico  Covid-19 Webparts
-## COVID-19 Statistics
+## #1. COVID-19 Statistics
 A web part for Kentico 10 that adds COVID-19 Coronavirus Statistics to your web site.
 ![Test Image 4](https://github.com/vasu-rbt/K10Covid19Webparts/blob/master/SampleView.png)
+## #2. COVID-19 World data country wise
+A web part for Kentico 10 that adds COVID-19 World data country wise.
+![Test Image 4](https://github.com/vasu-rbt/K10Covid19Webparts/blob/master/COVID-19AllCountriesData.png)
 # Installation
 1. Download the latest package from Release
 2. In Kentico, go to the Sites application
@@ -15,7 +18,8 @@ Tested with Kentico 10.0
 1. Browse https://rapidapi.com/ website
 2. Sign Up with GitHub/Facebook/Gmail/Your work email
 3. Search for Coronavirus COVID-19 APIs
-4. Subscribe "COVID-19 Coronavirus Statistics"
+4. Subscribe "COVID-19 Coronavirus Statistics" for COVID-19 Statistics web part
+5. Subscribe "Corona virus World and India data" for COVID-19 World data country wise
 # Configurations from CMS Admin
 1. Goto Settings under Configuration mobule
 2. Select "COVID-19 APIs"
