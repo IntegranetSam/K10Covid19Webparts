@@ -113,7 +113,7 @@ public partial class CMSWebParts_COVID_19_CoronavirusCountryStatistics : CMSAbst
                         LastReported = list.Data.LastReported
                     };
                     countryInfo.Add(cc);
-                    basicRepeater.DataSource = SetVehiclesDetails(countryInfo);
+                    basicRepeater.DataSource = GetStatistics(countryInfo);
                     basicRepeater.ItemTemplate = TransformationHelper.LoadTransformation(basicRepeater, TransformationName);
                 }
 
@@ -125,7 +125,7 @@ public partial class CMSWebParts_COVID_19_CoronavirusCountryStatistics : CMSAbst
     /// </summary>
     /// <param name="CountryInfo"></param>
     /// <returns></returns>
-    public DataTable SetVehiclesDetails(List<CountryInfo> CountryInfo)
+    public DataTable GetStatistics(List<CountryInfo> CountryInfo)
     {
         DataTable dt = new DataTable();
         try
