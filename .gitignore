@@ -11,6 +11,7 @@
 !/CMS/CMSWebParts/COVID-19/
  /CMS/CMSWebParts/COVID-19/*
 !/CMS/CMSWebParts/COVID-19/CoronavirusCountryStatistics.ascx*
+!/CMS/CMSWebParts/COVID-19/CoronavirusWorldDataCountryWise.ascx*
 
 # Add Global folder and files
 !/CMS/App_Code/
@@ -21,4 +22,8 @@
  /CMS/App_Code/Global/COVID-19/*
 !/CMS/App_Code/Global/COVID-19/CountryInfo.cs*
 !/CMS/App_Code/Global/COVID-19/JSONResponse.cs*
+!/CMS/App_Code/Global/COVID-19/Countries.cs*
+!/CMS/App_Code/Global/COVID-19/WorldData.cs*
+!/CMS/App_Code/Global/COVID-19/WorldDataCountryWise.cs*
+
 

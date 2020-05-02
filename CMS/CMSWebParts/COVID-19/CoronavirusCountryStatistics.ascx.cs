@@ -113,7 +113,7 @@ public partial class CMSWebParts_COVID_19_CoronavirusCountryStatistics : CMSAbst
                         LastReported = list.Data.LastReported
                     };
                     countryInfo.Add(cc);
-                    basicRepeater.DataSource = SetVehiclesDetails(countryInfo);
+                    basicRepeater.DataSource = GetStatistics(countryInfo);
                     basicRepeater.ItemTemplate = TransformationHelper.LoadTransformation(basicRepeater, TransformationName);
                 }
 
@@ -125,7 +125,7 @@ public partial class CMSWebParts_COVID_19_CoronavirusCountryStatistics : CMSAbst
     /// </summary>
     /// <param name="CountryInfo"></param>
     /// <returns></returns>
-    public DataTable SetVehiclesDetails(List<CountryInfo> CountryInfo)
+    public DataTable GetStatistics(List<CountryInfo> CountryInfo)
     {
         DataTable dt = new DataTable();
         try
@@ -135,12 +135,12 @@ public partial class CMSWebParts_COVID_19_CoronavirusCountryStatistics : CMSAbst
                 dt.Columns.Add(new DataColumn(property.Name, property.PropertyType));
             }
 
-            foreach (var vehicle in CountryInfo)
+            foreach (var country in CountryInfo)
             {
                 DataRow newRow = dt.NewRow();
-                foreach (PropertyInfo property in vehicle.GetType().GetProperties())
+                foreach (PropertyInfo property in country.GetType().GetProperties())
                 {
-                    newRow[property.Name] = vehicle.GetType().GetProperty(property.Name).GetValue(vehicle, null);
+                    newRow[property.Name] = country.GetType().GetProperty(property.Name).GetValue(country, null);
                 }
                 dt.Rows.Add(newRow);
             }
