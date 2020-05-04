@@ -6,7 +6,7 @@ A web part for Kentico 10 that adds COVID-19 Coronavirus Statistics to your web 
 A web part for Kentico 10 that adds COVID-19 World data country wise.
 ![Test Image 4](https://github.com/vasu-rbt/K10Covid19Webparts/blob/master/COVID-19AllCountriesData.png)
 # Installation
-1. Download the latest package from Release
+1. Download the latest package from [Release](https://github.com/vasu-rbt/K10Covid19Webparts/releases)
 2. In Kentico, go to the Sites application
 3. Select "Import sites or objects"
 4. Upload the package and import it (don't forget to check the "Import code files" checkbox)
